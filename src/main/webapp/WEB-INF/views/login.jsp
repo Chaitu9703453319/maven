@@ -53,12 +53,12 @@
                                 <li><a href="#">ABOUT</a></li>
                                 <li><a href="#">BLOG</a></li>
                             </ul>
-                            <div class="navbar-collapse navbar-right collapse">
+                            <!--div class="navbar-collapse navbar-right collapse">
 	                            <ul class="nav navbar-nav">
 	                        	 <li><a href="${contextPath}/login">LOGIN</a></li>
 	                        	 <li><a href="${contextPath}/registration">SIGN UP</a></li>
 	                       	 	</ul>
-                            </div>
+                            </div-->
                             
                          </div>
                          
