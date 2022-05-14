@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>LOGIN</title>
+    <title>My Page</title>
 
     <link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
@@ -44,12 +44,12 @@
                                 <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
                                     class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="${contextPath}/index">Naren Tech</a>
-                            <i class="brand_network"><small><small>VProfile</small></small></i>
+                            <a class="navbar-brand" href="${contextPath}/index">KicK</a>
+                            <!--i class="brand_network"><small><small>VProfile</small></small></i-->
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">TECHNOLOGIES</a></li>
+                                <!--li><a href="#">TECHNOLOGIES</a></li-->
                                 <li><a href="#">ABOUT</a></li>
                                 <li><a href="#">BLOG</a></li>
                             </ul>
@@ -71,7 +71,7 @@
 <div class="container">
 	
     <form method="POST" action="${contextPath}/login" class="form-signin">
-        <h2 class="form-heading" align="center"> Hello Users Please Login </h2>
+        <h2 class="form-heading" align="center"> You Have To Login Here </h2>
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <span>${message}</span>
             <input name="username" type="text" class="form-control" placeholder="Username"
