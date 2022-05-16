@@ -32,7 +32,7 @@
 </head>
 </head>
 
-<body background-color:DodgerBlue>
+<body bgcolor="red">
 <div class="mainbody container-fluid">
     <div class="row">
         <div class="navbar-wrapper">
