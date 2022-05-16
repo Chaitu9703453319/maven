@@ -1,5 +1,5 @@
 .mainbody {
-    background:#f0f0f0;
+    background:yellow;
 }
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
@@ -45,7 +45,7 @@
 }
 .navbar-footer 
 {
-    background-color:#DDD;
+    background-color:#red;
 }
 .navbar-brand,.navbar-toggle,.brand_network{
 	color: #FFFFFF;
