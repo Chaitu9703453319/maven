@@ -50,7 +50,7 @@
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <!--li><a href="#">TECHNOLOGIES</a></li-->
-                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">ABOUT Mahesh</a></li>
                                 <li><a href="#">BLOG</a></li>
                             </ul>
                             <!--div class="navbar-collapse navbar-right collapse">
@@ -74,9 +74,10 @@
         <h2 class="form-heading" align="center"> You Have To Login Here </h2>
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <span>${message}</span>
+		<input name="password" type="password" class="form-control" placeholder="Password"/>
             <input name="username" type="text" class="form-control" placeholder="Username"
                    autofocus="true"/>
-            <input name="password" type="password" class="form-control" placeholder="Password"/>
+            
             <span>${error}</span>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
